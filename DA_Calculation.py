@@ -34,4 +34,5 @@ for i in range(len(cpi)-1,0,-1):
   else:
     break
 da = (((sum/3)/277.33)-1)*100
-print('DA on the basis of last three months = ',da)
+month = ['Jan','Feb','March','Apr','May','June','July','Aug','Sept','Oct','Nov','Dec']
+print('DA on the basis of {0}, {1} and {2} {4} = {3}'.format(month[i+1],month[i+2],month[i+3],round(da,2),'2021'))
