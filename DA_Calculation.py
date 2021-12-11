@@ -35,7 +35,3 @@ for i in range(len(cpi)-1,0,-1):
     break
 da = (((sum/3)/277.33)-1)*100
 print('DA on the basis of last three months = ',da)
-
-print(type(table))
-
-print(table.to_list())
